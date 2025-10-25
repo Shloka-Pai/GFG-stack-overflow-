@@ -7,29 +7,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node modules
-node_modules/
-frontend/node_modules/
-backend/node_modules/
-
-# Build folders
-dist/
-build/
-dist-ssr/
+node_modules
+dist
+dist-ssr
 *.local
 
-# Environment files
-.env
-frontend/.env
-backend/.env
-
 # Editor directories and files
-.vscode/
+.vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Vite / build files
+dist/
+
