@@ -10,6 +10,13 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// ✅ Import the questions route
+const questionRoutes = require("./routes/questionRoutes");
+
+// ✅ Use the route
+app.use("/questions", questionRoutes);
+
+
 // Routes
 app.get("/", (req, res) => {
   res.send("This is the Stack Overflow Clone API 🚀");
