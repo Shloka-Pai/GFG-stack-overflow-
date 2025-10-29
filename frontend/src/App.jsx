@@ -1,14 +1,12 @@
-import React from 'react';
-import UsersList from './components/UsersList'; // Import your UsersList component
-import './App.css'; // Keep your existing styles
+import React from 'react'
 
 function App() {
   return (
-    <div className="App">
-      <h1>My App</h1>
-      <UsersList />
+    <div>
+      <h1>Hello MERN World 🌎</h1>
+      <p>If you see this, React is working!</p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
